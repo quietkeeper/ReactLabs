@@ -1,6 +1,6 @@
 import React, {Fragment,Component} from 'react';
 import Navbar from './component/layout/Navbar';
-import UserItem from './component/users/UserItem';
+import Users from './component/users/Users';
 import './App.css';
 
 class App extends Component{
@@ -10,7 +10,8 @@ class App extends Component{
        <h1 className="App-header">
        
          <Navbar></Navbar>
-         <UserItem/>
+         <div className="container"><Users/></div>
+         
        </h1>
      </Fragment>
     );
